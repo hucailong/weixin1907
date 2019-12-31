@@ -50,3 +50,5 @@
 </body>
 
 </html>
+
+ssh-keygen -t rsa -C “474121845@qq.com”
