@@ -7,20 +7,23 @@ use Illuminate\Http\Request;
 class WechatController extends Controller
 {
 
-    private $stu_arr = ['刘清源','文安生','商业兴','度国伟','阿龙','高泽东','王振国'];
+
 
 
     public function wechat(){
         //echo  request()->get('echostr');
 
         $xml = file_get_contents('php://input');
-        file_put_contents('xml.log',$xml,8);
+        file_put_contents('xml.log',date("Y-m-d H:i:s").$xml,8);
         $xml_obj = simplexml_load_string($xml); //
         file_put_contents('xml_obj.log',$xml,8);
        //关注推送
+
         if ($xml_obj->MsgType == 'event' && $xml_obj->Event == 'subscribe') {
             $this -> Text_response($xml_obj,'谢谢关注');
         }
+
+
         //文本回复
         if ($xml_obj->MsgType == 'text' ) {
             $content = $xml_obj ->Content;
@@ -28,7 +31,7 @@ class WechatController extends Controller
             // 发送2 回复本班最帅同学姓名
             // 发送天气 回复北京当前一周天气
             if ($content == '1') {
-                $arr = $this ->stu_arr;
+                $arr = ['刘清源','文安生','商业兴','度国伟','阿龙','高泽东','王振国'];
                 $str = '1907同学:'.implode(',',$arr);
                 $this -> Text_response($xml_obj,$str);
             }elseif ($content == '2' ) {
