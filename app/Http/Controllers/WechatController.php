@@ -3,24 +3,29 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Tools\Wechat;
 class WechatController extends Controller
 {
 
     private $stu_arr = ['刘清源','文安生','商业兴','度国伟','阿龙','高泽东','王振国'];
 
-
+    //微信接入
     public function wechat(){
         //echo  request()->get('echostr');
 
         $xml = file_get_contents('php://input');
-        file_put_contents('xml.log',date("Y-m-d H:i:s").$xml,8);
+        file_put_contents('xml.log',date("Y-m-d H:i:s").$xml,8);//写入日志
         $xml_obj = simplexml_load_string($xml); //
         file_put_contents('xml_obj.log',$xml,8);
-       //关注推送
 
+       //关注推送
         if ($xml_obj->MsgType == 'event' && $xml_obj->Event == 'subscribe') {
-            $this -> Text_response($xml_obj,'谢谢关注');
+            //获取用户信息
+            $userInfo = Wechat::getUserInfo($xml_obj);
+            $userInfo_arr = json_decode($userInfo,true);
+            $msg = "欢迎您的到来,谢谢".$userInfo_arr['nickname']."的关注.";
+            $this -> Text_response($xml_obj,$msg);
+
         }
 
 
