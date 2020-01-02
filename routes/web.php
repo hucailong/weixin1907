@@ -15,7 +15,7 @@ Route::get('/', function () {
 });
 
 Route::prefix('wechat')->group(function () {
-    Route::get('/link','WechatController@link');
+    Route::get('/link','WechatController@wechat');
 });
 
 

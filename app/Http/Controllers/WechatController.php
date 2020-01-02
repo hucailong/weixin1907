@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class WechatController extends Controller
 {
-    public function link(){
+    public function wechat(){
         echo  request()->get('echostr');
     }
 }
