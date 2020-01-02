@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class WechatController extends Controller
 {
 
-
+    private $stu_arr = ['刘清源','文安生','商业兴','度国伟','阿龙','高泽东','王振国'];
 
 
     public function wechat(){
@@ -30,8 +30,8 @@ class WechatController extends Controller
             //用户发送1 展示全班所有同学姓名
             // 发送2 回复本班最帅同学姓名
             // 发送天气 回复北京当前一周天气
+            $arr = $this ->stu_arr;
             if ($content == '1') {
-                $arr = ['刘清源','文安生','商业兴','度国伟','阿龙','高泽东','王振国'];
                 $str = '1907同学:'.implode(',',$arr);
                 $this -> Text_response($xml_obj,$str);
             }elseif ($content == '2' ) {
@@ -73,14 +73,14 @@ class WechatController extends Controller
         if(empty($city)){
             $city ="北京";
         }
-        $url = "http://api.k780.com/?app=weather.future&weaid=" . $city . "&&appkey=47880&sign=45784aa64359d091fa851a1c1df6297b&format=json";
+        $url = "http://api.k780.com/?app=weather.future&weaid=".$city."&&appkey=47880&sign=45784aa64359d091fa851a1c1df6297b&format=json";
         $data = file_get_contents($url);
         $data_city = json_decode($data, true);
         //    var_dump($data_city);
         $msg = "";
         foreach ($data_city['result'] as $k => $v) {
-            $msg .= $v['days'] . " " . $v['week'] . " " . $v['citynm'] . " " . $v['temperature'] . " " . $v['weather'] . "\n";
+            $msg .= $v['days']." ".$v['week']." ".$v['citynm']." ".$v['temperature']." " .$v['weather']."\n";
         }
-        return   $msg;
+        return $msg;
     }
 }
