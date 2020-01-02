@@ -14,6 +14,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+/**
+ * 微信开发
+ */
 Route::prefix('wechat')->group(function () {
     Route::get('/link','WechatController@wechat');
 });
