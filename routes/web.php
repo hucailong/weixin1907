@@ -14,16 +14,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::prefix('wechat')->group(function () {
+    Route::get('/link','WechatController@link');
+});
+
+
+
 
 //后台路由
 Route::prefix('admin')->group(function () {
     Route::get('/login','Admin\LoginController@login');
     Route::any('/login_do','Admin\LoginController@login_do');
-
-//    Route::get('/index','Admin\LoginController@index');
-//    Route::get('/index_v1','Admin\LoginController@index_v1');
-
-
 });
 Route::prefix('admin')->middleware('checkLogin')->group(function () {
     Route::get('/index','Admin\LoginController@index');

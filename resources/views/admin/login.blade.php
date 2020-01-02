@@ -51,4 +51,4 @@
 
 </html>
 
-ssh-keygen -t rsa -C “474121845@qq.com”
+{{--ssh-keygen -t rsa -C “474121845@qq.com”--}}
