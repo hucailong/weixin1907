@@ -16,7 +16,6 @@ class WechatController extends Controller
         $xml = file_get_contents('php://input');
         file_put_contents('xml.log',date("Y-m-d H:i:s").$xml,8);//写入日志
         $xml_obj = simplexml_load_string($xml); //
-        file_put_contents('xml_obj.log',$xml,8);
 
        //关注推送
         if ($xml_obj->MsgType == 'event' && $xml_obj->Event == 'subscribe') {
