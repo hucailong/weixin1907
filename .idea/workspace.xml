@@ -2,8 +2,255 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6101c6c-5767-4fb2-8451-9914b92e0fdc" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/xml.log" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/IndexController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/hadmin/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/login/login.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/media/add.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/media/show.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/error/400.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/error/403.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/error/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/error/500.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/error/501.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/error/502.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/error/503.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/error/504.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/error/505.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/error/506.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/error/507.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/error/509.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/error/510.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/admin/index_v1.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/layouts/admin/layouts.blade.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="$PROJECT_DIR$/config/filesystems.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/animate.css" afterPath="$PROJECT_DIR$/public/hadmin/css/animate.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/bootstrap-rtl.css" afterPath="$PROJECT_DIR$/public/hadmin/css/bootstrap-rtl.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/hadmin/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/demo/webuploader-demo.css" afterPath="$PROJECT_DIR$/public/hadmin/css/demo/webuploader-demo.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/font-awesome.css" afterPath="$PROJECT_DIR$/public/hadmin/css/font-awesome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/public/hadmin/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/login.css" afterPath="$PROJECT_DIR$/public/hadmin/css/login.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/patterns/header-profile-skin-1.png" afterPath="$PROJECT_DIR$/public/hadmin/css/patterns/header-profile-skin-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/patterns/header-profile-skin-3.png" afterPath="$PROJECT_DIR$/public/hadmin/css/patterns/header-profile-skin-3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/patterns/header-profile.png" afterPath="$PROJECT_DIR$/public/hadmin/css/patterns/header-profile.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/patterns/shattered.png" afterPath="$PROJECT_DIR$/public/hadmin/css/patterns/shattered.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/blueimp/css/blueimp-gallery-indicator.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/blueimp/css/blueimp-gallery-indicator.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/blueimp/css/blueimp-gallery-video.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/blueimp/css/blueimp-gallery-video.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/blueimp/css/blueimp-gallery.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/blueimp/css/blueimp-gallery.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/blueimp/css/blueimp-gallery.min.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/blueimp/css/blueimp-gallery.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/blueimp/css/demo.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/blueimp/css/demo.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/blueimp/img/error.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/blueimp/img/error.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/blueimp/img/error.svg" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/blueimp/img/error.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/blueimp/img/loading.gif" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/blueimp/img/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/blueimp/img/play-pause.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/blueimp/img/play-pause.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/blueimp/img/play-pause.svg" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/blueimp/img/play-pause.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/blueimp/img/video-play.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/blueimp/img/video-play.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/blueimp/img/video-play.svg" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/blueimp/img/video-play.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/bootstrap-table/bootstrap-table.min.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/bootstrap-table/bootstrap-table.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/chosen/chosen-sprite.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/chosen/chosen-sprite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/chosen/chosen-sprite@2x.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/chosen/chosen-sprite@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/chosen/chosen.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/chosen/chosen.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/clockpicker/clockpicker.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/clockpicker/clockpicker.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/codemirror/ambiance.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/codemirror/ambiance.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/codemirror/codemirror.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/codemirror/codemirror.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/cropper/cropper.min.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/cropper/cropper.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/dataTables/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/dataTables/dataTables.bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/datapicker/datepicker3.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/datapicker/datepicker3.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/dropzone/basic.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/dropzone/basic.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/dropzone/dropzone.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/dropzone/dropzone.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/duallistbox/bootstrap-duallistbox.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/duallistbox/bootstrap-duallistbox.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/footable/fonts/footable.eot" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/footable/fonts/footable.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/footable/fonts/footable.svg" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/footable/fonts/footable.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/footable/fonts/footable.ttf" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/footable/fonts/footable.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/footable/fonts/footable.woff" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/footable/fonts/footable.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/footable/footable.core.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/footable/footable.core.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/fullcalendar/fullcalendar.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/fullcalendar/fullcalendar.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/fullcalendar/fullcalendar.print.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/fullcalendar/fullcalendar.print.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/iCheck/custom.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/iCheck/custom.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/iCheck/green.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/iCheck/green.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/iCheck/green@2x.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/iCheck/green@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/images/sort_asc.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/images/sort_asc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/images/sort_desc.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/images/sort_desc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/images/sprite-skin-flat.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/images/sprite-skin-flat.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/images/spritemap.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/images/spritemap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/images/spritemap@2x.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/images/spritemap@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/ionRangeSlider/ion.rangeSlider.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/ionRangeSlider/ion.rangeSlider.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/jasny/jasny-bootstrap.min.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/jasny/jasny-bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/jqgrid/ui.jqgrid.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/jqgrid/ui.jqgrid.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/jsTree/32px.png" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/jsTree/32px.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/jsTree/style.min.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/jsTree/style.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/jsTree/throbber.gif" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/jsTree/throbber.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/markdown/bootstrap-markdown.min.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/markdown/bootstrap-markdown.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/morris/morris-0.4.3.min.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/morris/morris-0.4.3.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/multiselect/bootstrap-multiselect.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/multiselect/bootstrap-multiselect.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/nouslider/jquery.nouislider.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/nouslider/jquery.nouislider.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/plyr/plyr.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/plyr/plyr.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/plyr/sprite.svg" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/plyr/sprite.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/simditor/simditor.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/simditor/simditor.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/steps/jquery.steps.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/steps/jquery.steps.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/summernote/summernote-bs3.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/summernote/summernote-bs3.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/summernote/summernote.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/summernote/summernote.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/sweetalert/sweetalert.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/sweetalert/sweetalert.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/switchery/switchery.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/switchery/switchery.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/toastr/toastr.min.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/toastr/toastr.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/treeview/bootstrap-treeview.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/treeview/bootstrap-treeview.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/plugins/webuploader/webuploader.css" afterPath="$PROJECT_DIR$/public/hadmin/css/plugins/webuploader/webuploader.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/style.css" afterPath="$PROJECT_DIR$/public/hadmin/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/public/hadmin/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/hadmin/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/public/hadmin/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/public/hadmin/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/hadmin/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/public/hadmin/fonts/fontawesome-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/hadmin/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/hadmin/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/hadmin/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/hadmin/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/hadmin/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/1.png" afterPath="$PROJECT_DIR$/public/hadmin/img/1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/a1.jpg" afterPath="$PROJECT_DIR$/public/hadmin/img/a1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/a2.jpg" afterPath="$PROJECT_DIR$/public/hadmin/img/a2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/a3.jpg" afterPath="$PROJECT_DIR$/public/hadmin/img/a3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/a4.jpg" afterPath="$PROJECT_DIR$/public/hadmin/img/a4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/a5.jpg" afterPath="$PROJECT_DIR$/public/hadmin/img/a5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/a6.jpg" afterPath="$PROJECT_DIR$/public/hadmin/img/a6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/a7.jpg" afterPath="$PROJECT_DIR$/public/hadmin/img/a7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/a8.jpg" afterPath="$PROJECT_DIR$/public/hadmin/img/a8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/a9.jpg" afterPath="$PROJECT_DIR$/public/hadmin/img/a9.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/bg.png" afterPath="$PROJECT_DIR$/public/hadmin/img/bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/browser.png" afterPath="$PROJECT_DIR$/public/hadmin/img/browser.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/iconfont-logo.png" afterPath="$PROJECT_DIR$/public/hadmin/img/iconfont-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/icons.png" afterPath="$PROJECT_DIR$/public/hadmin/img/icons.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/loading-upload.gif" afterPath="$PROJECT_DIR$/public/hadmin/img/loading-upload.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/locked.png" afterPath="$PROJECT_DIR$/public/hadmin/img/locked.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/login-background.jpg" afterPath="$PROJECT_DIR$/public/hadmin/img/login-background.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/p1.jpg" afterPath="$PROJECT_DIR$/public/hadmin/img/p1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/p2.jpg" afterPath="$PROJECT_DIR$/public/hadmin/img/p2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/p3.jpg" afterPath="$PROJECT_DIR$/public/hadmin/img/p3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/profile.jpg" afterPath="$PROJECT_DIR$/public/hadmin/img/profile.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/profile_small.jpg" afterPath="$PROJECT_DIR$/public/hadmin/img/profile_small.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/progress.png" afterPath="$PROJECT_DIR$/public/hadmin/img/progress.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/sprite-skin-flat.png" afterPath="$PROJECT_DIR$/public/hadmin/img/sprite-skin-flat.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/success.png" afterPath="$PROJECT_DIR$/public/hadmin/img/success.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/user.png" afterPath="$PROJECT_DIR$/public/hadmin/img/user.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/webuploader.png" afterPath="$PROJECT_DIR$/public/hadmin/img/webuploader.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/img/wenku_logo.png" afterPath="$PROJECT_DIR$/public/hadmin/img/wenku_logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/content.js" afterPath="$PROJECT_DIR$/public/hadmin/js/content.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/hAdmin.js" afterPath="$PROJECT_DIR$/public/hadmin/js/hAdmin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/index.js" afterPath="$PROJECT_DIR$/public/hadmin/js/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/jquery-ui-1.10.4.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/jquery-ui-1.10.4.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/jquery-ui.custom.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/jquery-ui.custom.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/jquery.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/jquery.min.map" afterPath="$PROJECT_DIR$/public/hadmin/js/jquery.min.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/beautifyhtml/beautifyhtml.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/beautifyhtml/beautifyhtml.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/blueimp/jquery.blueimp-gallery.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/blueimp/jquery.blueimp-gallery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/bootstrap-table/bootstrap-table.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/bootstrap-table/bootstrap-table.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/chartJs/Chart.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/chartJs/Chart.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/chosen/chosen.jquery.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/chosen/chosen.jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/cropper/cropper.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/cropper/cropper.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/dataTables/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/dataTables/dataTables.bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/dataTables/jquery.dataTables.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/dataTables/jquery.dataTables.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/datapicker/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/datapicker/bootstrap-datepicker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/duallistbox/jquery.bootstrap-duallistbox.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/duallistbox/jquery.bootstrap-duallistbox.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/echarts/echarts-all.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/echarts/echarts-all.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/curvedLines.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/flot/curvedLines.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/flot/jquery.flot.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.pie.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/flot/jquery.flot.pie.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/flot/jquery.flot.resize.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.spline.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/flot/jquery.flot.spline.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.symbol.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/flot/jquery.flot.symbol.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.tooltip.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/flot/jquery.flot.tooltip.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/footable/footable.all.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/footable/footable.all.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/fullcalendar/fullcalendar.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/fullcalendar/fullcalendar.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/fullcalendar/moment.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/fullcalendar/moment.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/gritter/images/gritter-light.png" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/gritter/images/gritter-light.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/gritter/images/gritter.png" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/gritter/images/gritter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/gritter/images/ie-spacer.gif" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/gritter/images/ie-spacer.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/gritter/jquery.gritter.css" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/gritter/jquery.gritter.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/gritter/jquery.gritter.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/gritter/jquery.gritter.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/iCheck/icheck.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/iCheck/icheck.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/ionRangeSlider/jasny/jasny-bootstrap.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/ionRangeSlider/jasny/jasny-bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/jasny/jasny-bootstrap.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/jasny/jasny-bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/jeditable/jquery.jeditable.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/jeditable/jquery.jeditable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/jqgrid/i18n/grid.locale-cn.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/jqgrid/i18n/grid.locale-cn.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/jqgrid/jquery.jqGrid.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/jqgrid/jquery.jqGrid.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/jquery-ui/jquery-ui.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/jquery-ui/jquery-ui.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/jsTree/jstree.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/jsTree/jstree.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/jsTree/jstree.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/jsTree/jstree.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/extend/layer.ext.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/extend/layer.ext.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/laydate/laydate.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/laydate/laydate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/laydate/need/laydate.css" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/laydate/need/laydate.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/laydate/skins/default/icon.png" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/laydate/skins/default/icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/laydate/skins/default/laydate.css" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/laydate/skins/default/laydate.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/layer.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/layer.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/layim/data/chatlog.json" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/layim/data/chatlog.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/layim/data/friend.json" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/layim/data/friend.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/layim/data/group.json" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/layim/data/group.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/layim/data/groups.json" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/layim/data/groups.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/layim/layim.css" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/layim/layim.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/layim/layim.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/layim/layim.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/layim/loading.gif" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/layim/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/default/icon-ext.png" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/default/icon-ext.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/default/icon.png" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/default/icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/default/icon_ext.png" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/default/icon_ext.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/default/loading-0.gif" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/default/loading-0.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/default/loading-1.gif" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/default/loading-1.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/default/loading-2.gif" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/default/loading-2.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/default/textbg.png" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/default/textbg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/default/xubox_ico0.png" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/default/xubox_ico0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/default/xubox_loading0.gif" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/default/xubox_loading0.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/default/xubox_loading1.gif" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/default/xubox_loading1.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/default/xubox_loading2.gif" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/default/xubox_loading2.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/default/xubox_loading3.gif" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/default/xubox_loading3.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/default/xubox_title0.png" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/default/xubox_title0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/layer.css" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/layer.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/layer.ext.css" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/layer.ext.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/moon/default.png" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/moon/default.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/layer/skin/moon/style.css" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/layer/skin/moon/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/markdown/bootstrap-markdown.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/markdown/bootstrap-markdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/markdown/bootstrap-markdown.zh.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/markdown/bootstrap-markdown.zh.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/markdown/markdown.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/markdown/markdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/markdown/to-markdown.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/markdown/to-markdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/metisMenu/jquery.metisMenu.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/metisMenu/jquery.metisMenu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/multiselect/bootstrap-multiselect.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/multiselect/bootstrap-multiselect.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/peity/jquery.peity.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/peity/jquery.peity.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/plyr/plyr.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/plyr/plyr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/prettyfile/bootstrap-prettyfile.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/prettyfile/bootstrap-prettyfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/slimscroll/jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/slimscroll/jquery.slimscroll.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/sparkline/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/sparkline/jquery.sparkline.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/suggest/bootstrap-suggest.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/suggest/bootstrap-suggest.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/suggest/data.json" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/suggest/data.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/toastr/toastr.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/toastr/toastr.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/treeview/bootstrap-treeview.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/treeview/bootstrap-treeview.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/validate/additional-methods.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/validate/additional-methods.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/validate/jquery.validate.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/validate/jquery.validate.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/validate/messages_zh.min.js" afterPath="$PROJECT_DIR$/public/hadmin/js/plugins/validate/messages_zh.min.js" />
     </list>
     <ignored path="12larave.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +280,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/media/add.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="618">
+              <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <folding>
+                <element signature="e#581#671#0#HTML" expanded="true" />
+                <marker date="1578041190586" expanded="true" signature="9:24" ph="..." />
+                <marker date="1578041190586" expanded="true" signature="36:56" ph="..." />
+                <marker date="1578041190586" expanded="true" signature="68:77" ph="..." />
+                <marker date="1578041190586" expanded="true" signature="136:155" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1578040684619" expanded="true" signature="152:159" ph="..." />
+                <marker date="1578040684619" expanded="true" signature="862:871" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/hadmin/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-617">
+              <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1578039876502" expanded="true" signature="2545:2561" ph="..." />
+                <marker date="1578039876502" expanded="true" signature="2691:2708" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state relative-caret-position="684">
+              <caret line="34" column="50" lean-forward="false" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
               <folding>
                 <element signature="e#453#468#0#PHP" expanded="false" />
               </folding>
@@ -45,27 +336,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WechatController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WechatController.php">
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/media/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+            <state relative-caret-position="180">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-                <element signature="e#1708#1784#0#PHP" expanded="false" />
-                <element signature="e#2165#2222#0#PHP" expanded="false" />
-                <marker date="1577961907517" expanded="true" signature="1853:2150" ph="..." />
+                <marker date="1578026215332" expanded="true" signature="9:24" ph="..." />
+                <marker date="1578026215332" expanded="true" signature="36:56" ph="..." />
+                <marker date="1578026215332" expanded="true" signature="68:77" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wechat.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Tools/Wechat.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="48" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -79,6 +359,9 @@
       <find>js/</find>
       <find>flot-line-chart-moving</find>
       <find>Text_response($xml_obj</find>
+      <find>cont</find>
+      <find>container</find>
+      <find>相册</find>
     </findStrings>
     <replaceStrings>
       <replace>/static/admin/css/</replace>
@@ -95,7 +378,6 @@
       <list>
         <option value="$PROJECT_DIR$/resources/views/login/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/login/index_v1.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/login/login.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/layouts.blade.php" />
         <option value="$USER_HOME$/Desktop/hAdmin/index.html" />
         <option value="$PROJECT_DIR$/resources/views/admin/index.blade.php" />
@@ -106,7 +388,6 @@
         <option value="$PROJECT_DIR$/app/Http/Middleware/CheckLogin.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/checkLogin.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" />
         <option value="$USER_HOME$/.ssh/id_rsa.pub" />
         <option value="&lt;04126d52-b9e6-44aa-9ddb-c8b32224c539&gt;/test.php" />
         <option value="&lt;04126d52-b9e6-44aa-9ddb-c8b32224c539&gt;/1.php" />
@@ -119,11 +400,25 @@
         <option value="&lt;04126d52-b9e6-44aa-9ddb-c8b32224c539&gt;/wx1907/routes/web.php" />
         <option value="&lt;04126d52-b9e6-44aa-9ddb-c8b32224c539&gt;/wx1907/public/xml.log" />
         <option value="&lt;04126d52-b9e6-44aa-9ddb-c8b32224c539&gt;/wx1907/app/Http/Controllers/WechatController.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Tools/Wechst.php" />
         <option value="$PROJECT_DIR$/app/Tools/Wechat.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/WechatController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/hadmin/layouts.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/hadmin/index_v1.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/hadmin/login.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/IndexController.php" />
+        <option value="$PROJECT_DIR$/resources/views/login/login.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Media/MediaController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/media/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/hadmin/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/media/add.blade.php" />
+        <option value="$PROJECT_DIR$/app/Tools/Curl.php" />
+        <option value="$PROJECT_DIR$/config/filesystems.php" />
       </list>
     </option>
   </component>
@@ -137,10 +432,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1928" />
-    <option name="height" value="1048" />
+    <option name="x" value="98" />
+    <option name="y" value="92" />
+    <option name="width" value="1698" />
+    <option name="height" value="899" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -222,7 +517,51 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="12larave" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin08" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="12larave" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin08" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hadmin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,7 +589,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,46 +625,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12larave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin08" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12larave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin08" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -341,7 +640,12 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\weixin08\app\Http\Controllers\Admin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\weixin08\public" />
+      <recent name="D:\phpstudy_pro\WWW\weixin08\resources\views\login" />
       <recent name="D:\phpstudy_pro\WWW\weixin08\resources\views\layouts\admin" />
     </key>
   </component>
@@ -442,56 +746,36 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50693000" />
+    <option name="totallyTimeSpent" value="66326000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1048" extended-state="6" />
+    <frame x="98" y="92" width="1698" height="899" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22776572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18390192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.44557196" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.056338027" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22087067" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.44557196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5072464" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20683454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.44557196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -512,21 +796,29 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php">
+    <entry file="file://$PROJECT_DIR$/app/Model/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="432">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/login.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#251#684#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/login/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1404">
           <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-          <folding>
-            <marker date="1577936955133" expanded="true" signature="878:900" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -544,18 +836,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="e#251#684#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Model/User.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/login.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/login/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <marker date="1577936955133" expanded="true" signature="878:900" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -571,11 +863,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/hadmin/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
@@ -596,21 +887,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
           <folding>
-            <marker date="1577936955133" expanded="true" signature="878:900" ph="..." />
+            <element signature="e#251#684#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/login/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/hadmin/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="439" column="78" lean-forward="false" selection-start-line="439" selection-start-column="78" selection-end-line="439" selection-end-column="78" />
@@ -627,31 +918,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/index_v1.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="673" column="17" lean-forward="false" selection-start-line="673" selection-start-column="17" selection-end-line="673" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/hAdmin/index_v1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="1712" column="13" lean-forward="false" selection-start-line="608" selection-start-column="4" selection-end-line="1712" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/hAdmin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="443" column="10" lean-forward="false" selection-start-line="443" selection-start-column="10" selection-end-line="443" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin/layouts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1566" column="72" lean-forward="false" selection-start-line="1566" selection-start-column="72" selection-end-line="1566" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -667,14 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -691,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,23 +967,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Wechat/WechatController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Wechat/WechatController.php" />
     <entry file="file://$USER_HOME$/Desktop/laravel/public/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,17 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1908">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="43" />
-          <folding>
-            <marker date="1577936955133" expanded="true" signature="878:900" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -761,32 +1001,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Tools/Wechst.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding>
-            <element signature="e#453#468#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Tools/Wechst.php" />
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="719">
@@ -821,6 +1036,172 @@
         <state relative-caret-position="900">
           <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/hadmin/index_v1.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/hAdmin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/hadmin/layouts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/上传素材接口示例.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/curl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#251#684#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/login/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Media/MediaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/hAdmin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="446" column="52" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="464" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/hadmin/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="4" column="68646" lean-forward="false" selection-start-line="4" selection-start-column="68637" selection-end-line="4" selection-end-column="68646" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Tools/Curl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/media/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="e#581#671#0#HTML" expanded="true" />
+            <marker date="1578041190586" expanded="true" signature="9:24" ph="..." />
+            <marker date="1578041190586" expanded="true" signature="36:56" ph="..." />
+            <marker date="1578041190586" expanded="true" signature="68:77" ph="..." />
+            <marker date="1578041190586" expanded="true" signature="136:155" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1578040684619" expanded="true" signature="152:159" ph="..." />
+            <marker date="1578040684619" expanded="true" signature="862:871" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/hadmin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-617">
+          <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1578039876502" expanded="true" signature="2545:2561" ph="..." />
+            <marker date="1578039876502" expanded="true" signature="2691:2708" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="34" column="50" lean-forward="false" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+          <folding>
+            <element signature="e#453#468#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/media/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <marker date="1578026215332" expanded="true" signature="9:24" ph="..." />
+            <marker date="1578026215332" expanded="true" signature="36:56" ph="..." />
+            <marker date="1578026215332" expanded="true" signature="68:77" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

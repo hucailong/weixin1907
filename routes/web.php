@@ -26,11 +26,11 @@ Route::prefix('wechat')->group(function () {
 
 //后台路由
 Route::prefix('admin')->group(function () {
-    Route::get('/login','Admin\LoginController@login');
+    Route::any('/login','Admin\LoginController@login');
     Route::any('/login_do','Admin\LoginController@login_do');
 });
 Route::prefix('admin')->middleware('checkLogin')->group(function () {
-    Route::get('/index','Admin\LoginController@index');
-    Route::get('/index_v1','Admin\LoginController@index_v1');
-
+    Route::any('/index','Admin\IndexController@index');
+    Route::any('/add','Media\MediaController@add');
+    Route::any('/show','Media\MediaController@show');
 });

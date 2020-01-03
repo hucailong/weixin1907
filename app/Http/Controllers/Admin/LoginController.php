@@ -8,7 +8,7 @@ use App\Model\User;
 class LoginController extends Controller
 {
     public function login(){
-        return view('admin.login');
+        return view('login.login');
     }
 
     public function login_do(){
@@ -26,10 +26,10 @@ class LoginController extends Controller
 
     }
     public function index(){
-        return view('admin.index');
+        return view('hadmin.index');
     }
 
     public function index_v1(){
-        return view('admin.index_v1');
+        return view('hadmin.index_v1');
     }
 }
