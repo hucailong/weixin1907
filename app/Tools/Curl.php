@@ -12,8 +12,13 @@ class Curl
         curl_setopt($curl, CURLOPT_POSTFIELDS, $postData);//设置post传输数据
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);//关闭https验证
         curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);//关闭https验证
-        $output = curl_exec($curl);
+        $output= curl_exec($curl);
+        curl_close($curl);
         return $output;
+
     }
+
+
+
 
 }
