@@ -9,7 +9,7 @@ class MediaController extends Controller
 {
     //素材添加
     public function add(){
-        return view('media\add');
+        return view('media/add');
     }
 
     public function add_do(Request $request){
