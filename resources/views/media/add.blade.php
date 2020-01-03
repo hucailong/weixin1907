@@ -11,7 +11,7 @@
         </div>
         <div class="form-group">
             <label for="exampleInputFile">素材文件</label>
-            <input type="file" name="">
+            <input type="file" name="datum">
         </div>
         <div class="form-group">
             <label>素材类型</label>
