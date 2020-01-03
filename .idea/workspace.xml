@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6101c6c-5767-4fb2-8451-9914b92e0fdc" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Tools/Wechat.php" afterPath="$PROJECT_DIR$/app/Tools/Wechat.php" />
     </list>
     <ignored path="12larave.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +32,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MediaController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MediaController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Media/MediaController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="339">
@@ -47,14 +47,24 @@
       <file leaf-file-name="Wechat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Tools/Wechat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="14" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MediaController.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;04126d52-b9e6-44aa-9ddb-c8b32224c539&gt;/wx1907/app/Http/Controllers/Media/MediaController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="560">
@@ -132,11 +142,11 @@
         <option value="$PROJECT_DIR$/resources/views/media/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/media/add.blade.php" />
         <option value="&lt;04126d52-b9e6-44aa-9ddb-c8b32224c539&gt;/wx1907/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Media/MediaController.php" />
         <option value="&lt;04126d52-b9e6-44aa-9ddb-c8b32224c539&gt;/wx1907/app/Http/Controllers/Media/MediaController.php" />
         <option value="&lt;04126d52-b9e6-44aa-9ddb-c8b32224c539&gt;/wx1907/app/Tools/Wechat.php" />
-        <option value="$PROJECT_DIR$/app/Tools/Wechat.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Media/MediaController.php" />
+        <option value="$PROJECT_DIR$/app/Tools/Wechat.php" />
       </list>
     </option>
   </component>
@@ -450,7 +460,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72009000" />
+    <option name="totallyTimeSpent" value="72214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1048" extended-state="6" />
@@ -891,10 +901,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding>
+            <element signature="e#453#468#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Tools/Wechat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="14" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -905,16 +925,6 @@
           <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
             <element signature="e#46#82#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding>
-            <element signature="e#453#468#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
