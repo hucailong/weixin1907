@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6101c6c-5767-4fb2-8451-9914b92e0fdc" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/EqpN6QjivQIPmJ588zWMa048a0gdbzBlJyG1llst.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/QG9WZIx78Qnf6U5YhZ85HmwkT4N6fFRXlyHg9yQA.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/USUXTBPNPGCFkUpCkbeTdJHRlwlT7SxFYx6QmIpK.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/c5Y3c76Dc2YWF1mxFAl7b58oeVjZSMTxC66RarWw.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hDQEOnPAbmZkQphPO8zc3OnnhoOoUrq3Yve2k3Pc.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hHZWhTRfPFlU9oK2BnuyrgUMSUh9nYh8NuHqa0Fx.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rd2jszKJemTB2jnUUh3YXgCglcoSQN51f4Fo10l1.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/yJE5BKWNRX3PjonqRaUzqBzAEI6YbFBB163hyRPc.jpeg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Media/MediaController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Media/MediaController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/media/add.blade.php" afterPath="$PROJECT_DIR$/resources/views/media/add.blade.php" />
@@ -423,10 +431,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69691000" />
+    <option name="totallyTimeSpent" value="69848000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="221" y="30" width="1698" height="899" extended-state="0" />
+    <frame x="221" y="30" width="1698" height="899" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
