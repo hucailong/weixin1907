@@ -15,7 +15,7 @@ class MediaController extends Controller
     }
 
     public function add_do(Request $request){
-        $type = "images";
+        $type = "image";
         $file = $request->datum;
         if (!$request->hasFile('datum')) {
             echo "报错";exit;
