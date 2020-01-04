@@ -18,7 +18,7 @@ class Curl
 
     }
 
-    public static function Get($url,$postData){
+    public static function Get($url){
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, $url);//设置请求地址
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);//返回数据格式
