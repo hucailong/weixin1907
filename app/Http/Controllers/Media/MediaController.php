@@ -26,8 +26,8 @@ class MediaController extends Controller
         $filePath = new \CURLFile(public_path()."/".$filePath);
 //        var_dump($filePath);exit;
         $postData = ['media'=>$filePath];
+        var_dump($postData);exit;   
         $output = Curl::Post($url,$postData);
-
         var_dump($output);
     }
 
