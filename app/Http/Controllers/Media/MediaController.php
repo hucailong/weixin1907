@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Media;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Tools\Wechat;
-use APP\Tools\Curl;
+use App\Tools\Curl;
 
 class MediaController extends Controller
 {
