@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6101c6c-5767-4fb2-8451-9914b92e0fdc" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/1yFfiPpPabIgKXPpawhvHjKc8Ojn1gALXAyp47mr.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/8uUaGR0pwdaRH4YPx2z2DtXRhxgQ5DtKdN93AyzT.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/AAhPv7dTlfKVJJQRABveeazSumRFzE6aITJFjj2u.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Dhq46s2U5ZTy90WkGPrylcJvsmxFBKjAnBUFoVLa.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/EqpN6QjivQIPmJ588zWMa048a0gdbzBlJyG1llst.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/KtVw0WpTkqn3Wct0XXDZAQUqeStctipkCOgg49Du.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/OYbVNFy6tElLjfyiFgqmOSoXFXTaWDohU2DdvsLw.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/OltfIPGkZ0RYXkiPhWsRfjpuQLLrlcRSFCXOsKot.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/OxjiBNsHkYeA0bj9NmAuIZNmFyQVs1m5l6ZN30n2.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/QG9WZIx78Qnf6U5YhZ85HmwkT4N6fFRXlyHg9yQA.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/QKOwjXAYgHZiQ1zXZn9ynKDsZHlh9ho4D939rLPM.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/SzHDIiCTLZprbdqZhhpMDJvA3kqxRlrQh6CIDbxL.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/USUXTBPNPGCFkUpCkbeTdJHRlwlT7SxFYx6QmIpK.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/c5Y3c76Dc2YWF1mxFAl7b58oeVjZSMTxC66RarWw.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/hC9pmIxfKMDilHFztCyC053Z6h8IXRZscCvc4Evt.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/hDQEOnPAbmZkQphPO8zc3OnnhoOoUrq3Yve2k3Pc.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/hHZWhTRfPFlU9oK2BnuyrgUMSUh9nYh8NuHqa0Fx.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/hNXGfnF9PuIQ3GjbSmi4u0NBSPBaGwQBVYESiTUd.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/l2n8LMfSCROkNL15KzbKm1o3REtusPbujUksITCa.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/rd2jszKJemTB2jnUUh3YXgCglcoSQN51f4Fo10l1.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/s6AErDUnlAkmPoOyRNz6Kgjx8gEFevYhqnsf0FRE.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/wWdTqZoaN70SiYc8eHcI8lpYElsGlWDwbvnuixQS.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/yJE5BKWNRX3PjonqRaUzqBzAEI6YbFBB163hyRPc.jpeg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Media/MediaController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Media/MediaController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Tools/Curl.php" afterPath="$PROJECT_DIR$/app/Tools/Curl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Tools/Wechat.php" afterPath="$PROJECT_DIR$/app/Tools/Wechat.php" />
     </list>
     <ignored path="12larave.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,8 +71,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="324">
+              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -189,10 +163,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1928" />
-    <option name="height" value="1048" />
+    <option name="x" value="239" />
+    <option name="y" value="240" />
+    <option name="width" value="1698" />
+    <option name="height" value="899" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -529,10 +503,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77134000" />
+    <option name="totallyTimeSpent" value="78317000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1048" extended-state="6" />
+    <frame x="239" y="240" width="1698" height="899" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -543,7 +517,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5072464" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14978679" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18390192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20959903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.44557196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -970,8 +944,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="324">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
         </state>
       </provider>
