@@ -24,6 +24,7 @@ class ReportController extends Controller
      }
 
      public function show(){
+
          return view('report.show',['data'=>Report::all()->toArray()]);
      }
 
