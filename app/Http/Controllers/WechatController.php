@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Tools\Wechat;
+use App\Wechat\Report;
+use Illuminate\Support\Facades\Cache;
 class WechatController extends Controller
 {
 
@@ -45,6 +47,11 @@ class WechatController extends Controller
                 $weather = $this ->botain_weather($city);
                 $this -> Text_response($xml_obj,$weather);
             }else if($content == trim('最新新闻')) {
+                $report_sum = Cache::increment('report_sum');
+                $reportInfo = Report::orderBy('report_id', 'desc')->first();
+                Report::where('report_id',$reportInfo->report_id)->update('report_sum',$report_sum);
+
+                $content = "新闻>\n标题:".$reportInfo['report_title']."\n内容:".$reportInfo['report_content']."作者:".$userInfo['report_author']."发布时间:".$userInfo['report_time']."点击量:".$userInfo['report_sum']."";
                 $this->Text_response($xml_obj, $content);
             }
 //            }else{

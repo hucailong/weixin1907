@@ -29,11 +29,13 @@ Route::prefix('admin')->group(function () {
     Route::any('/login','Admin\LoginController@login');
     Route::any('/login_do','Admin\LoginController@login_do');
 
-    
     Route::any('/index','Admin\IndexController@index');
     Route::any('/add','Media\MediaController@add');
     Route::any('/show','Media\MediaController@show');
     Route::any('/add_do','Media\MediaController@add_do');
+    Route::any('/report_add','Media\ReportController@add');
+    Route::any('/report_add_do','Media\ReportController@add_do');
+    Route::any('/report_show','Media\ReportController@show');
 });
 Route::prefix('admin')->middleware('checkLogin')->group(function () {
 
