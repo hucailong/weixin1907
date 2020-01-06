@@ -24,9 +24,7 @@ class WechatController extends Controller
             $userInfo_arr = json_decode($userInfo,true);
             $msg = "欢迎您的到来,谢谢".$userInfo_arr['nickname']."的关注.";
             $this -> Text_response($xml_obj,$msg);
-
         }
-
 
         //文本回复
         if ($xml_obj->MsgType == 'text' ) {
@@ -50,23 +48,42 @@ class WechatController extends Controller
                 $this -> Text_response($xml_obj,$content);
             }
         }
-    }
 
+        //斗图
+//        if($xml_obj->MsgType == "image") {
+//            $this -> Image_response($xml_obj,$media_id);
+//        }
+    }
 
     /**
      * 文本回复
-     * @param $xml_obj xml对象
-     * @param $msg 回复消息
+     * @param $xml_obj
+     * @param $msg
      */
     public function Text_response($xml_obj,$msg){
         echo "<xml>
-      <ToUserName><![CDATA[".$xml_obj->FromUserName."]]></ToUserName>
+        <ToUserName><![CDATA[".$xml_obj->FromUserName."]]></ToUserName>
         <FromUserName><![CDATA[".$xml_obj->ToUserName."]]></FromUserName>
-      <CreateTime>".time()."</CreateTime>
+        <CreateTime>".time()."</CreateTime>
         <MsgType><![CDATA[text]]></MsgType>
-          <Content><![CDATA[".$msg."]]></Content>
-          </xml>";
+        <Content><![CDATA[".$msg."]]></Content>
+        </xml>";
     }
+
+    /**
+     * 图片回复
+     * @param $xml_obj
+     * @param $media_id
+     */
+     public function Image_response($xml_obj,$media_id){
+         echo "<xml>
+        <ToUserName><![CDATA[".$xml_obj->FromUserName."]]></ToUserName>
+        <FromUserName><![CDATA[".$xml_obj->ToUserName."]]></FromUserName>
+        <CreateTime>".time()."</CreateTime>
+        <MsgType><![CDATA[image]]></MsgType>
+        <Image><MediaId><![CDATA[".$media_id."]]></MediaId></Image>
+        </xml>";
+     }
 
     /**
      * 获取指定城市天气
@@ -87,4 +104,7 @@ class WechatController extends Controller
         }
         return $msg;
     }
+
+
+
 }

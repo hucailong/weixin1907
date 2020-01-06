@@ -16,23 +16,20 @@ class MediaController extends Controller
     //执行添加
     public function add_do(Request $request){
         //接值
-        $data = $request->input();
-//        var_dump($data);
-//        exit;
+        $data = $request->input();//        exit;
         //文件上传
         $file = $request->datum;
-
         if (!$request->hasFile('datum')) {
-            echo "报错";exit;
+            echo "没有文件被上传";exit;
         }
-        $ext = $file->getClientOriginalExtension();
+        $ext = $file->getClientOriginalExtension(); //获取原文件格式后缀
         $filename = md5(uniqid()).".".$ext;
         $Path = $file->storeAs("WechatMedia/".$data['media_format'],$filename);
         //素材添加接口
-        $access_token = Wechat::getAccessToken();
-        $url = "https://api.weixin.qq.com/cgi-bin/media/upload?access_token=".$access_token."&type=".$data['media_format']."";
+        $url = Wechat::Material_url($data['media_format'],$data['media_type']);
+//        $access_token = Wechat::getAccessToken();
+//        $url = "https://api.weixin.qq.com/cgi-bin/media/upload?access_token=".$access_token."&type=".$data['media_format']."";
         $filePath = new \CURLFile(public_path()."/".$Path);
-//        var_dump($filePath);exit;
         $postData = ['media'=>$filePath];
         $media_id = json_decode(Curl::Post($url,$postData),true)['media_id'];
         Media::create([
@@ -44,6 +41,7 @@ class MediaController extends Controller
             'add_time'  => time() ,
             'over_time' => time() +(60*60*24*3) ,
         ]);
+
     }
 
 

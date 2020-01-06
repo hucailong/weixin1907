@@ -1,7 +1,5 @@
 @extends('layouts.admin')
-
 @section('title', '素材管理 - 展示')
-
 @section('content')
     <h2>响应式表格布局</h2>
     <div class="table-bordered table-responsive">
@@ -12,7 +10,7 @@
                     <th>素材名称</th>
                     <th>素材展示</th>
                     <th>媒体格式</th>
-                    <th>Wechat-media_id</th>
+                    {{--<th>Wechat-media_id</th>--}}
                     <th>添加时间</th>
                     <th>过期时间</th>
                 </tr>
@@ -38,7 +36,7 @@
                             永久素材
                         @endif
                     </td>
-                    <td>{{$v['wechat_media_id']}}</td>
+                    {{--<td>{{$v['wechat_media_id']}}</td>--}}
                     <td>{{date('Y-m-d H:i:s',$v['add_time'])}}</td>
                     <td>{{date('Y-m-d H:i:s',$v['over_time'])}}</td>
                 </tr>
