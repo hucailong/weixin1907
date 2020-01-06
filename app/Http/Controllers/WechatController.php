@@ -54,6 +54,11 @@ class WechatController extends Controller
 
                 $content = "新闻>\n标题:".$reportInfo['report_title']."内容:".$reportInfo['report_content']."\n作者:".$reportInfo['report_author']."\n发布时间:".$reportInfo['report_time']."\n点击量:".$reportInfo['report_sum']."";
                 $this->Text_response($xml_obj, $content);
+            }else if($content == trim(('新闻'.$content))){
+
+                $reportInfo = Report::where('report_title',$content )->first();
+                $content = "新闻>\n标题:".$reportInfo['report_title']."内容:".$reportInfo['report_content']."\n作者:".$reportInfo['report_author']."\n发布时间:".$reportInfo['report_time']."\n点击量:".$reportInfo['report_sum']."";
+                $this->Text_response($xml_obj, $content);
             }
 //            }else{
 //                $this -> Text_response($xml_obj,$content);
