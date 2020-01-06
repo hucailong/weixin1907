@@ -22,7 +22,7 @@ class WechatController extends Controller
             //获取用户信息
             $userInfo = Wechat::getUserInfo($xml_obj);
             $userInfo_arr = json_decode($userInfo,true);
-            $msg = "欢迎您的到来,谢谢".$userInfo_arr['nickname']."的关注.";
+            $msg = "欢迎".$userInfo_arr['nickname'].($userInfo_arr['sex']==1?'先生':'女士')."关注本公众号.";
             $this -> Text_response($xml_obj,$msg);
         }
 
@@ -33,10 +33,10 @@ class WechatController extends Controller
             // 发送2 回复本班最帅同学姓名
             // 发送天气 回复北京当前一周天气
             $arr = $this ->stu_arr;
-            if ($content == '1') {
+            if ($content == trim('1')) {
                 $str = '1907同学:'.implode(',',$arr);
                 $this -> Text_response($xml_obj,$str);
-            }elseif ($content == '2' ) {
+            }elseif ($content == trim('2') ) {
                 shuffle($arr);
                 $str = '最帅同学:'.$arr[0];
                 $this -> Text_response($xml_obj,$str);
@@ -44,9 +44,15 @@ class WechatController extends Controller
                 $city = rtrim($content,"天气"); //获取指定城市天气
                 $weather = $this ->botain_weather($city);
                 $this -> Text_response($xml_obj,$weather);
-            }else{
-                $this -> Text_response($xml_obj,$content);
+            }else if($content == trim('最新新闻')) {
+                $this->Text_response($xml_obj, $content);
             }
+//            }else{
+//                $this -> Text_response($xml_obj,$content);
+//            }
+
+
+
         }
 
         //斗图
