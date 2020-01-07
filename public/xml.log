@@ -232,4 +232,45 @@
 <MsgType><![CDATA[text]]></MsgType>
 <Content><![CDATA[新闻aaa]]></Content>
 <MsgId>22595530905245931</MsgId>
+</xml>2020-01-07 19:22:32<xml><ToUserName><![CDATA[gh_70ac0054afe0]]></ToUserName>
+<FromUserName><![CDATA[ooRh-0TTkeDhaECXVI9w2Jrk7vTE]]></FromUserName>
+<CreateTime>1577948448</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>2020-01-07 19:23:12<xml><ToUserName><![CDATA[gh_70ac0054afe0]]></ToUserName>
+<FromUserName><![CDATA[ooRh-0TTkeDhaECXVI9w2Jrk7vTE]]></FromUserName>
+<CreateTime>1577948448</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>2020-01-07 19:34:58<xml><ToUserName><![CDATA[gh_70ac0054afe0]]></ToUserName>
+<FromUserName><![CDATA[ooRh-0TTkeDhaECXVI9w2Jrk7vTE]]></FromUserName>
+<CreateTime>1577948448</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>2020-01-07 19:35:35<xml><ToUserName><![CDATA[gh_70ac0054afe0]]></ToUserName>
+<FromUserName><![CDATA[ooRh-0TTkeDhaECXVI9w2Jrk7vTE]]></FromUserName>
+<CreateTime>1577948448</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>2020-01-07 19:38:06<xml><ToUserName><![CDATA[gh_70ac0054afe0]]></ToUserName>
+<FromUserName><![CDATA[ooRh-0TTkeDhaECXVI9w2Jrk7vTE]]></FromUserName>
+<CreateTime>1577948448</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>2020-01-07 19:38:36<xml><ToUserName><![CDATA[gh_70ac0054afe0]]></ToUserName>
+<FromUserName><![CDATA[ooRh-0TTkeDhaECXVI9w2Jrk7vTE]]></FromUserName>
+<CreateTime>1577948448</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>2020-01-07 19:41:14<xml><ToUserName><![CDATA[gh_70ac0054afe0]]></ToUserName>
+<FromUserName><![CDATA[ooRh-0TTkeDhaECXVI9w2Jrk7vTE]]></FromUserName>
+<CreateTime>1577948448</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
 </xml>

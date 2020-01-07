@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Tools\Wechat;
 use App\Wechat\Report;
 use Illuminate\Support\Facades\Cache;
+use App\Wechat\User;
+use App\Wechat\Area;
 class WechatController extends Controller
 {
 
@@ -24,6 +26,15 @@ class WechatController extends Controller
             //获取用户信息
             $userInfo = Wechat::getUserInfo($xml_obj);
             $userInfo_arr = json_decode($userInfo,true);
+            User::create([
+                'open_id'=>$userInfo_arr['openid'],
+                'nickname'=>$userInfo_arr['nickname'],
+                'site'=>$userInfo_arr['country'].$userInfo_arr['province'].$userInfo_arr['city'],
+                'qr_scene_str'=>$userInfo_arr['qr_scene_str'],
+            ]);
+            Area::where('area_event_key',$userInfo_arr['qr_scene_str'])->increment('attention_sum');
+            echo 'Ok';exit;
+            var_dump($userInfo_arr);exit;
             $msg = "欢迎".$userInfo_arr['nickname'].($userInfo_arr['sex']==1?'先生':'女士')."关注本公众号.";
             $this -> Text_response($xml_obj,$msg);
         }
@@ -61,7 +72,7 @@ class WechatController extends Controller
                 Report::where('report_id',$reportInfo->report_id)->update(['report_sum'=>$reportInfo['report_sum']+1]);
 
                 $content = "新闻>\n标题:".$reportInfo['report_title']."内容:".$reportInfo['report_content']."\n作者:".$reportInfo['report_author']."\n发布时间:".$reportInfo['report_time']."\n点击量:".$reportInfo['report_sum']."";
-                var_dump( $this->Text_response($xml_obj, $content)) ;
+                $this->Text_response($xml_obj, $content) ;
 
             }
 

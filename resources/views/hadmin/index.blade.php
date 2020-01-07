@@ -83,6 +83,22 @@
                     </ul>
                 </li>
                 <li class="line dk"></li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa fa-bar-chart-o"></i>
+                        <span class="nav-label">渠道管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a class="J_menuItem" href="{{url('admin\area_add')}}">渠道添加</a>
+                        </li>
+                        <li>
+                            <a class="J_menuItem" href="{{url('admin\area_show')}}">渠道展示</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="line dk"></li>
             </ul>
         </div>
     </nav>
