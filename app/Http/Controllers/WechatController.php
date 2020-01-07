@@ -24,8 +24,11 @@ class WechatController extends Controller
        //关注推送
         if ($xml_obj->MsgType == 'event' && $xml_obj->Event == 'subscribe') {
             //获取用户信息
+
             $userInfo = Wechat::getUserInfo($xml_obj);
             $userInfo_arr = json_decode($userInfo,true);
+            $msg = "欢迎".$userInfo_arr['nickname'].($userInfo_arr['sex']==1?'先生':'女士')."关注本公众号.";
+            $this -> Text_response($xml_obj,$msg);
             User::create([
                 'open_id'=>$userInfo_arr['openid'],
                 'nickname'=>$userInfo_arr['nickname'],
@@ -34,8 +37,7 @@ class WechatController extends Controller
             ]);
 
             Area::where('area_event_key',$userInfo_arr['qr_scene_str'])->increment('attention_sum');
-            $msg = "欢迎".$userInfo_arr['nickname'].($userInfo_arr['sex']==1?'先生':'女士')."关注本公众号.";
-            $this -> Text_response($xml_obj,$msg);
+
         }
 
         //文本回复
