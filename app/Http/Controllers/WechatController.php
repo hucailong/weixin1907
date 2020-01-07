@@ -50,15 +50,15 @@ class WechatController extends Controller
 
                 $reportInfo = Report::orderBy('report_id', 'desc')->first();
                 $report_sum = Cache::increment($reportInfo['report_title']);
-                Report::where('report_id',$reportInfo->report_id)->update(['report_sum'=>$report_sum]);
+                Report::where('report_id',$reportInfo->report_id)->update(['report_sum'=>$reportInfo['report_sum']+1]);
 
                 $content = "新闻>\n标题:".$reportInfo['report_title']."内容:".$reportInfo['report_content']."\n作者:".$reportInfo['report_author']."\n发布时间:".$reportInfo['report_time']."\n点击量:".$reportInfo['report_sum']."";
                 $this->Text_response($xml_obj, $content);
             }else if(trim(('新闻'.$content))){
                 $content = ltrim($content,'新闻');
                 $reportInfo = Report::where('report_title',$content )->first();
-                $report_sum = Cache::increment($reportInfo['report_title']);
-                Report::where('report_id',$reportInfo->report_id)->update(['report_sum'=>$report_sum]);
+
+                Report::where('report_id',$reportInfo->report_id)->update(['report_sum'=>$reportInfo['report_sum']+1]);
 
                 $content = "新闻>\n标题:".$reportInfo['report_title']."内容:".$reportInfo['report_content']."\n作者:".$reportInfo['report_author']."\n发布时间:".$reportInfo['report_time']."\n点击量:".$reportInfo['report_sum']."";
                 var_dump( $this->Text_response($xml_obj, $content)) ;
