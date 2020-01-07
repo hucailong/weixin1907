@@ -32,9 +32,8 @@ class WechatController extends Controller
                 'site'=>$userInfo_arr['country'].$userInfo_arr['province'].$userInfo_arr['city'],
                 'qr_scene_str'=>$userInfo_arr['qr_scene_str'],
             ]);
+
             Area::where('area_event_key',$userInfo_arr['qr_scene_str'])->increment('attention_sum');
-            echo 'Ok';exit;
-            var_dump($userInfo_arr);exit;
             $msg = "欢迎".$userInfo_arr['nickname'].($userInfo_arr['sex']==1?'先生':'女士')."关注本公众号.";
             $this -> Text_response($xml_obj,$msg);
         }

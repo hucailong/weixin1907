@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6101c6c-5767-4fb2-8451-9914b92e0fdc" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/area/add.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/area/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/WechatController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/WechatController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/xml.log" afterPath="$PROJECT_DIR$/public/xml.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/hadmin/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/hadmin/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <ignored path="12larave.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,18 +70,18 @@
       <file leaf-file-name="WechatController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WechatController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="34" column="70" lean-forward="false" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
+            <state relative-caret-position="252">
+              <caret line="35" column="100" lean-forward="false" selection-start-line="35" selection-start-column="100" selection-end-line="35" selection-end-column="100" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
-                <element signature="e#3558#3623#0#PHP" expanded="false" />
-                <element signature="e#3628#3998#0#PHP" expanded="false" />
-                <element signature="e#4004#4074#0#PHP" expanded="false" />
-                <element signature="e#4080#4479#0#PHP" expanded="false" />
-                <element signature="e#4485#4542#0#PHP" expanded="false" />
-                <element signature="e#4547#5132#0#PHP" expanded="false" />
-                <marker date="1578397270313" expanded="true" signature="3692:3989" ph="..." />
-                <marker date="1578397270313" expanded="true" signature="4151:4469" ph="..." />
+                <element signature="e#3489#3554#0#PHP" expanded="false" />
+                <element signature="e#3559#3929#0#PHP" expanded="false" />
+                <element signature="e#3935#4005#0#PHP" expanded="false" />
+                <element signature="e#4011#4410#0#PHP" expanded="false" />
+                <element signature="e#4416#4473#0#PHP" expanded="false" />
+                <element signature="e#4478#5063#0#PHP" expanded="false" />
+                <marker date="1578398254974" expanded="true" signature="3623:3920" ph="..." />
+                <marker date="1578398254974" expanded="true" signature="4082:4400" ph="..." />
               </folding>
             </state>
           </provider>
@@ -482,7 +477,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135785000" />
+    <option name="totallyTimeSpent" value="136769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="74" y="87" width="1666" height="920" extended-state="0" />
@@ -885,18 +880,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WechatController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="34" column="70" lean-forward="false" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
+        <state relative-caret-position="252">
+          <caret line="35" column="100" lean-forward="false" selection-start-line="35" selection-start-column="100" selection-end-line="35" selection-end-column="100" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
-            <element signature="e#3558#3623#0#PHP" expanded="false" />
-            <element signature="e#3628#3998#0#PHP" expanded="false" />
-            <element signature="e#4004#4074#0#PHP" expanded="false" />
-            <element signature="e#4080#4479#0#PHP" expanded="false" />
-            <element signature="e#4485#4542#0#PHP" expanded="false" />
-            <element signature="e#4547#5132#0#PHP" expanded="false" />
-            <marker date="1578397270313" expanded="true" signature="3692:3989" ph="..." />
-            <marker date="1578397270313" expanded="true" signature="4151:4469" ph="..." />
+            <element signature="e#3489#3554#0#PHP" expanded="false" />
+            <element signature="e#3559#3929#0#PHP" expanded="false" />
+            <element signature="e#3935#4005#0#PHP" expanded="false" />
+            <element signature="e#4011#4410#0#PHP" expanded="false" />
+            <element signature="e#4416#4473#0#PHP" expanded="false" />
+            <element signature="e#4478#5063#0#PHP" expanded="false" />
+            <marker date="1578398254974" expanded="true" signature="3623:3920" ph="..." />
+            <marker date="1578398254974" expanded="true" signature="4082:4400" ph="..." />
           </folding>
         </state>
       </provider>
