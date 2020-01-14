@@ -35,9 +35,12 @@ class WechatController extends Controller
                 'site'=>$userInfo_arr['country'].$userInfo_arr['province'].$userInfo_arr['city'],
                 'qr_scene_str'=>$userInfo_arr['qr_scene_str'],
             ]);
-
             Area::where('area_event_key',$userInfo_arr['qr_scene_str'])->increment('attention_sum');
-
+        }else if ($xml_obj->MsgType == 'event' && $xml_obj->Event == 'unsubscribe') {
+            //取消关注          更改用户状态         更改渠道关注人数-1
+            $open_id = $xml_obj->FromUserName;
+            var_dump($open_id);
+            var_dump($xml);exit;
         }
 
         //文本回复

@@ -11,7 +11,7 @@
                     <th>渠道名称</th>
                     <th>渠道标识</th>
                     <th>渠道二维码</th>
-                    {{--<th>Wechat-media_id</th>--}}
+
                     <th>关注人数</th>
                 </tr>
             </thead>
@@ -24,7 +24,7 @@
                     <td>
                         <img src="https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket={{$v['area_ticket']}}" alt=""width="100px">
                     </td>
-                    <td>{{$v['area_sum']}}</td>
+                    <td>{{$v['attention_sum']}}</td>
                 </tr>
             @endforeach
             </tbody>
